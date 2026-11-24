@@ -1,0 +1,12 @@
+# Abaikan folder library/dependensi (jika pakai Composer atau NPM)
+/vendor/
+/node_modules/
+
+# Abaikan file konfigurasi rahasia / database lokal
+.env
+koneksi.php
+
+# Abaikan file sampah sistem operasi atau editor
+.DS_Store
+Thumbs.db
+.vscode/
